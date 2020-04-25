@@ -4,32 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Youtube</title>
+    <link
+    href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+    rel="stylesheet"/>
+    <script
+    src="https://kit.fontawesome.com/2d323a629b.js"
+    crossorigin="anonymous"
+  ></script>
 </head>
 <body>
     
     <!-- Header -->
     <header class="header">
-        <div class="header__logo"></div>
+        <div class="header__logo"><i class="fab fa-youtube"></i></div>
         <ul>
-            <li class="header__icons"></li>
-            <li class="header__icons"></li>
-            <li class="header__icons"></li>
-            <li class="header__icons"></li>
+            <li class="header__icons"><i class="fas fa-search"></i></li>
+            <li class="header__icons"><i class=""></i></li>
+            <li class="header__icons"><i class=""></i></li>
+            <li class="header__icons"><i class=""></i></li>
         </ul>
     </header>
 
     <!-- video player -->
     <section>
-
+        <iframe width="435" height="245" src="https://www.youtube.com/embed/t4IOgVatNLI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </section>
 
     <!-- video info -->
-    <div class="videoInfo">
-        <ul class="videoInfo__hashTag">
-            <li></li>
-            <li></li>
+    <div class="video-info">
+        <ul class="hashtag">
+            <li>#nocopyrightsounds</li>
+            <li>#copyrightfree</li>
         </ul>
-        
+        <span class="video-info__title">
+            Cream Blade - Heavenly (feat. Romi) [NCS Release]
+        </span>
+        <span class="video-info__view-count">
+            조회수 23만
+        </span>
+        <button class="btn"><i class="fas fa-thumbs-up"></i></button>
+        <button class="btn"><i class="fas fa-thumbs-down"></i></button>
+        <button class="btn"><i class="fas fa-share"></i></button>
+        <button class="btn"><i class="fas fa-plus"></i></button>
+        <button class="btn"><i class="fas fa-ellipsis-v"></i></button>
+    </div>
+    <!-- youtuber info -->
+    <div class="youtuber-info">
+        <span class="youtuber-info__avatar"><img src="image/avata.png"/>  </span> 
+        <div class="channel-info">
+            <span class="channel-info__name">NoCopyrightSounds</span>
+            <span class="channel-info__sub-count">구독자 2560만명</span>
+        </div>
+        <button class="btn youtuber-info__sub-btn">구독</button>
+    </div>
+
+    <!-- next video -->
+    <div class="next-videos">
+        <span class="next-videos__title">다음동영상</span>
+        <ul>
+            <li class="next-video-list">
+                <span class="next-video-list__thumnail"><img src="image/nextVideoImage1.png"></span>
+                <span class="next-video-list__title">Y&V - Lune[NCS Release]</span>
+                <span class="next-video-list__channel-name">NoCopyrightSounds</span>
+                <span class="next-video-list__view-count">조회수 907만회</span>
+                <span class="next-video-list__upload-date">4년 전</span>
+            </li>
+        </ul>
     </div>
 
 </body>
