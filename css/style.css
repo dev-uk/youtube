@@ -1,0 +1,43 @@
+:root{
+
+    /* color*/
+    --black-color: #140a00;
+    --white-color: white;
+
+    /* Size */
+    --spacing: 12px;
+    --spacing-small: 6px;
+    --avatar-size: 36px;
+
+}
+
+*{
+    margin: 0;
+}
+ul {
+    list-style: none;
+    display: inline-block;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    
+    background-color: var(--black-color);
+    color : var(--white-color);
+    padding : var(--spacing);
+}
+.fa-youtube {
+    padding-right: var(--spacing-small);
+}
+
+.video-player{
+    background-color: var(--black-color);
+}
+.hashtag{
+    display: flex;
+}
+
+.video-info{
+
+}
