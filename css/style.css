@@ -6,6 +6,7 @@
     --blue-color: #045fd4;
     --grey-dark-color: #909090;
     --grey-light-color: #e0e0e0;
+    --red-color:#cc0000;
 
 
     /* Size */
@@ -111,4 +112,31 @@ button{
 
 .youtuber-info{
     display: flex;
+    justify-content: space-around;
+    padding-top: var(--spacing-large);
+    padding-bottom: var(--spacing-large);
+
+    border-bottom: var(--grey-light-color) 2px solid;
+}
+
+.youtuber-info__avatar img{
+    border-radius: 50%;
+}
+
+.youtuber-info__sub-btn {
+    background-color: var(--red-color);
+    color: var(--white-color);
+    padding-right: var(--spacing-large);
+    padding-left: var(--spacing-large);
+}
+
+.channel-info{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.channel-info__sub-count{
+    font-size: var(--font-small);
+    color: var(--grey-dark-color);
 }
